@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Projects() {
   return (
     <div className="container my-5">
@@ -15,7 +17,9 @@ export default function Projects() {
 
         <div className="col-md-4">
           <div className="card h-100 p-3">
-            <h5 className="card-title">Ticketing System Simulation</h5>
+            <h5 className="card-title"><Link className="nav-link" to="/ticketing-system">
+              Ticketing System Simulation
+            </Link></h5>
             <p className="card-text text-secondary">
               Practiced help desk workflows using GLPI: triage, troubleshooting, documentation.
             </p>
