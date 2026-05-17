@@ -49,7 +49,9 @@ export default function Projects() {
 
         <div className="col-md-4">
           <div className="card h-100 p-3">
-            <h5 className="card-title">Wireshark Network Analysis</h5>
+            <h5 className="card-title"><Link className="nav-link" to="/wireshark">
+              Wireshark Network Analysis
+            </Link></h5>
             <p className="card-text text-secondary">
               Captured traffic to analyze protocols, identify issues, and understand network behavior.
             </p>
