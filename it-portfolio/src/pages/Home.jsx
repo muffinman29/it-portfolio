@@ -30,7 +30,12 @@ export default function Home() {
           helping others, you’re in the right place.
         </p>
 
+        
+
         <div className="text-center mt-5">
+          <a href="https://github.com/muffinman29/IT-Support-Portfolio" target="_blank" className="btn btn-outline-secondary btn-lg mt-4" style={{ marginBottom: "10px"}}>
+          View my GitHub for my IT projects and more!
+        </a><br />
           <a href="/Resume.pdf" download className="btn btn-primary btn-lg px-4">
             Download My Résumé
           </a>

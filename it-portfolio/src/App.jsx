@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import TicketingSystem from "./pages/TicketingSystem";
+import HomeLab from "./pages/HomeLab";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ticketing-system" element={<TicketingSystem />} />
+        <Route path="/home-lab" element={<HomeLab />} />
       </Routes>
       <Footer />
     </Router>

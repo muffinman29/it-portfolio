@@ -8,7 +8,9 @@ export default function Projects() {
       <div className="row g-4">
         <div className="col-md-4">
           <div className="card h-100 p-3">
-            <h5 className="card-title">Home Lab Setup</h5>
+            <h5 className="card-title"><Link className="nav-link" to="/home-lab">
+              Home Lab Setup
+            </Link></h5>
             <p className="card-text text-secondary">
               Virtualized lab with Windows Server, AD, Linux VMs, and networking.
             </p>
