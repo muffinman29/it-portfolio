@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import TicketingSystem from "./pages/TicketingSystem";
 import HomeLab from "./pages/HomeLab";
 import Wireshark from "./pages/Wireshark";
+import PowerShell from "./pages/Powershell";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/ticketing-system" element={<TicketingSystem />} />
         <Route path="/home-lab" element={<HomeLab />} />
         <Route path="/wireshark" element={<Wireshark />} />
+        <Route path="/powershell" element={<PowerShell />} />
       </Routes>
       <Footer />
     </Router>

@@ -30,7 +30,9 @@ export default function Projects() {
 
         <div className="col-md-4">
           <div className="card h-100 p-3">
-            <h5 className="card-title">PowerShell Automation</h5>
+            <h5 className="card-title"><Link className="nav-link" to="/powershell">
+              Powershell Automation
+            </Link></h5>
             <p className="card-text text-secondary">
               Automated user creation, log cleanup, and system checks.
             </p>
@@ -42,7 +44,7 @@ export default function Projects() {
           <div className="card h-100 p-3">
             <h5 className="card-title">Active Directory Lab</h5>
             <p className="card-text text-secondary">
-                Set up AD domain, created OUs, users, groups, and applied GPOs.
+              Set up AD domain, created OUs, users, groups, and applied GPOs.
             </p>
           </div>
         </div>
@@ -56,7 +58,7 @@ export default function Projects() {
               Captured traffic to analyze protocols, identify issues, and understand network behavior.
             </p>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
   );
